@@ -1,0 +1,168 @@
+@media (max-width: 768px) {
+    /*.main {*/
+    /*    background: url(../img/mobile/gold-mobile-left.jpg) left center no-repeat, url(../img/mobile/gold-mobile-right.jpg) right center no-repeat;*/
+    /*    background-color: #191c1e;*/
+    /*    background: #191c1e;*/
+
+    /*}*/
+    .container {
+        padding: 0 25px;
+    }
+    .title {
+        font-size: 34px;
+    }
+    .main-text {
+        padding: 0 5px;
+        font-size: 16px;
+    }
+   .main-button {
+       width: 230px;
+   }
+   .arrows {
+       width: 320px;
+   }
+    .bottom-container {
+        flex-flow: column;
+        padding: 0 5px;
+        align-items: center;
+    }
+    .halal {
+        padding-bottom: 15px;
+    }
+    .rect {
+        padding: 10px;
+        width: 320px;
+        height: 200px;
+        font-size: 16px;
+    }
+    .image-between-rect {
+        padding-top: 0;
+    }
+    .registration-form {
+        background: url("../img/mobile/sec-2-mobile.png");
+        background-size: cover;
+    }
+    .gold-on-people {
+        display: block;
+        position: absolute;
+        max-width: 50%;
+        top: -30px;
+        right: -2%;
+        z-index: 9;
+        transform: translateY(-50%);
+    }
+    .head-q8 {
+        padding: 25px 0;
+        z-index: 9;
+
+    }
+    .footer-image {
+        display: none;
+    }
+    .footer-image-mobile {
+        display: block;
+    }
+    .content-people {
+        width: 100%;
+    }
+    .content-people-form {
+        width: 100%;
+        margin-top: 107%;
+    }
+
+
+}
+@media (max-width: 425px) {
+    .registration-form {
+        background: url("../img/mobile/sec-2-mobile.png") no-repeat;
+        background-size: contain;
+        position: relative;
+    }
+
+    .head-q8 {
+        width: 100%;
+    }
+
+    .content-people-form {
+        width: 100%;
+        margin-top: 81%;
+    }
+
+    .footer-content {
+        padding-top: 20px;
+    }
+
+    #registration-form {
+        background-size: cover;
+    }
+
+}
+@media (max-width: 996px) {
+    .bottom-container {
+        flex-flow: column;
+        padding: 0 5px;
+        align-items: center;
+    }
+    .halal {
+        padding-bottom: 65px;
+    }
+
+    .main {
+        background: #191c1e;
+    }
+    #main {
+        background: url(../img/mobile/gold-mobile-left.jpg) left center repeat-y, url(../img/mobile/gold-mobile-right.jpg) right center repeat-y;
+    }
+}
+@media (max-width: 375px) {
+    .content-people-form {
+        width: 100%;
+        margin-top: 68%;
+
+    }
+}
+@media (max-width: 320px) {
+    .registration-form {
+        background-color: black;
+    }
+    .content-people-form {
+        width: 100%;
+        margin-top: 48%;
+
+    }
+    .footer-content {
+        padding-top: 70px;
+    }
+    #registration-form {
+        background-size: contain;
+    }
+    #app > div.q8-form-container > div.q8-form-row.q8-form-row-phone-group > input {
+        height: 28px;
+    }
+
+}
+@media (min-width: 330px) and (max-width: 368px) {
+    .content-people {
+        width: 100%;
+        margin-top: 5%;
+    }
+}
+@media (min-width: 372px) and (max-width: 415px) {
+    .content-people {
+        width: 100%;
+        margin-top: 5%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 630px) {
+    .content-people {
+        width: 100%;
+        margin-top: -15%;
+    }
+}
+@media (min-width: 631px) and (max-width: 744px) {
+    .content-people {
+        width: 100%;
+        margin-top: -5%;
+    }
+}
